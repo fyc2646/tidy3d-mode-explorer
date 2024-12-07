@@ -1,12 +1,12 @@
 # Tidy3D Mode Explorer
 
-A simplistic graphical user interface for exploring optical waveguide modes using Tidy3D's waveguide plugin and mode solver. It provides two mode solve options: local mode solve and server mode solve. Local mode solve runs on your local machine, which doesn't require a tidy3d account and is totally free. Local mode solve does not implement the subpixel averaging scheme so the accuracy of the mode data is not guaranteed. Server mode solve sends the mode solve request to a Flexcompute server, which requires a tidy3d account and a small amount of FlexCredits. When more accurate mode data is needed, server mode solve is recommended.
+A simplistic graphical user interface for exploring optical waveguide modes using [Tidy3D](https://www.flexcompute.com/tidy3d/solver/)'s waveguide plugin and mode solver. It provides two mode solve options: local mode solve and server mode solve. Local mode solve runs on your local machine, which doesn't require a tidy3d account and is totally free. Local mode solve does not implement the subpixel averaging scheme so the accuracy of the mode data is not guaranteed. Server mode solve sends the mode solve request to a [Flexcompute](https://www.flexcompute.com/) server, which requires a tidy3d account (sign up for a free account [here](https://www.flexcompute.com/)) and a small amount of FlexCredits. When more accurate mode data is needed, server mode solve is recommended.
 
 ![Demo Interface](demo.png)
 
 ## Description
 
-This tool provides an interactive interface for quicklyanalyzing and visualizing optical waveguide modes using the Tidy3D electromagnetic simulation framework. The GUI supports:
+This tool provides an interactive interface for quickly analyzing and visualizing optical waveguide modes using the Tidy3D electromagnetic simulation framework. The GUI supports:
 
 ### Waveguide Types
 - Strip waveguide
