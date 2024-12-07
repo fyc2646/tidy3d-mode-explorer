@@ -5,13 +5,7 @@ A simplistic graphical user interface for exploring optical waveguide modes usin
 ![Demo Interface](demo.png)
 
 ### Demo Video
-[![Watch the demo video](https://vimeo.com/1037061805/thumbnail.jpg)](https://vimeo.com/1037061805)
-
-<div align="center">
-  <a href="https://vimeo.com/1037061805">
-    <img src="https://vimeo.com/1037061805/thumbnail.jpg" alt="Tidy3D Mode Explorer Demo">
-  </a>
-</div>
+[Watch the demo video on Vimeo](https://vimeo.com/1037061805)
 
 ## Description
 
