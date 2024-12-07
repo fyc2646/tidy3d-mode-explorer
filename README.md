@@ -76,6 +76,19 @@ python waveguide_gui.py
 
 To use server mode solve, you need to configure your tidy3d API key, unless you have done so previously, by following the instructions in the [Tidy3D documentation](https://docs.flexcompute.com/projects/tidy3d/en/latest/install.html).
 
+## Limitations
+
+This tool is designed to be minimalistic and focuses on basic waveguide mode solving. Current limitations include:
+
+1. Material properties:
+   - Only real refractive indices are supported
+   - Materials must be isotropic
+2. Simulation constraints:
+   - Mode solving at a single wavelength only
+   - Cannot include substrate or more complex geometries and configurations
+
+For more advanced functionalities, please use the [Tidy3D web GUI](https://tidy3d.simulation.cloud) or [Python API](https://www.flexcompute.com/tidy3d/examples/notebooks/ModeSolver/) directly.
+
 ## License
 
 This project is licensed under the MIT License.
