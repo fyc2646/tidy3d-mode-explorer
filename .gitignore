@@ -1,0 +1,10 @@
+*.pyc
+__pycache__/
+*.hdf5
+.env
+.venv
+env/
+venv/
+ENV/
+*.log
+.DS_Store
