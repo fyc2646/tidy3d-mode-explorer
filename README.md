@@ -4,6 +4,15 @@ A simplistic graphical user interface for exploring optical waveguide modes usin
 
 ![Demo Interface](demo.png)
 
+### Demo Video
+[![Watch the demo video](https://vimeo.com/1037061805/thumbnail.jpg)](https://vimeo.com/1037061805)
+
+<div align="center">
+  <a href="https://vimeo.com/1037061805">
+    <img src="https://vimeo.com/1037061805/thumbnail.jpg" alt="Tidy3D Mode Explorer Demo">
+  </a>
+</div>
+
 ## Description
 
 This tool provides an interactive interface for quickly analyzing and visualizing optical waveguide modes using the Tidy3D electromagnetic simulation framework. The GUI supports:
@@ -54,9 +63,14 @@ git clone https://github.com/yourusername/tidy3d-mode-explorer.git
 cd tidy3d-mode-explorer
 ```
 
-2. Install the required dependencies:
+2. Install the required dependencies (only `tidy3d` is required):
 ```bash
 pip install -r requirements.txt
+```
+
+or simply install `tidy3d` by:
+```bash
+pip install tidy3d
 ```
 
 ## Usage
@@ -65,6 +79,8 @@ Run the GUI application:
 ```bash
 python waveguide_gui.py
 ```
+
+To use server mode solve, you need to configure your tidy3d API key, unless you have done so previously, by following the instructions in the [Tidy3D documentation](https://docs.flexcompute.com/projects/tidy3d/en/latest/install.html).
 
 ## License
 
