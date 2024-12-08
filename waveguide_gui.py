@@ -311,6 +311,7 @@ class WaveguideGUI:
             
             # Plot the waveguide
             waveguide.mode_solver.plot(ax=self.ax)
+            self.ax.set_title("Mode solver cross-section")
             
             # Update the canvas
             self.canvas.draw()
@@ -363,6 +364,7 @@ class WaveguideGUI:
             mode_index=mode_index,
             ax=ax
         )
+        ax.set_title("Mode profile")
         canvas.draw()
     
     def _solve_local_mode(self):
