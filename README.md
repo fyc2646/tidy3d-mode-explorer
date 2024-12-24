@@ -53,7 +53,7 @@ This tool provides an interactive interface for quickly analyzing and visualizin
 
 1. Clone this repository:
 ```bash
-git clone https://github.com/yourusername/tidy3d-mode-explorer.git
+git clone https://github.com/fyc2646/tidy3d-mode-explorer.git
 cd tidy3d-mode-explorer
 ```
 
